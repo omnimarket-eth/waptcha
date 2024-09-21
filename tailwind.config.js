@@ -11,6 +11,18 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        display: ['"Press Start 2P"', 'system-ui']
+      },
+      keyframes: {
+        bounceHorizontal: {
+          '0%': { transform: 'translateX(-200px)' },
+          '100%': { transform: 'translateX(120vw)' },
+        }
+      },
+      animation: {
+        'bounce-horizontal': 'bounceHorizontal 12s linear infinite',
+      },
     },
   },
   plugins: [],

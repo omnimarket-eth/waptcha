@@ -25,7 +25,6 @@ export function VerifyClient({ waptcha }) {
 
   return (
     <>
-      ok
       <IDKitWidget
         app_id={process.env.WORLDCOIN_APP_ID}
         action={process.env.WORLDCOIN_ACTION}
