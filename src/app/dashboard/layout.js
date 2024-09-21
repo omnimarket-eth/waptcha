@@ -43,16 +43,16 @@ export default function DashboardLayout({ children }) {
       <WagmiProvider config={config}>
         <QueryClientProvider client={queryClient}>
           <DynamicWagmiConnector>
-            <div className="px-2">
-              <header className="border-b border-neutral-300 shadow">
-                <nav className="flex items-center justify-between max-w-7xl mx-auto h-12">
+            <div>
+              <header className="border-b border-neutral-300">
+                <nav className="flex items-center justify-between max-w-7xl mx-auto h-12 px-2">
                   <Link href="/" className="font-bold text-[#254EFB] font-display">Waptcha</Link>
                   <DynamicWidget
                     innerButtonComponent="Log in"
                   />
                 </nav>
               </header>
-              <main className="max-w-7xl mx-auto py-8">
+              <main className="max-w-7xl mx-auto px-2 py-8">
                 {children}
               </main>
             </div>

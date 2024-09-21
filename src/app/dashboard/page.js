@@ -76,15 +76,15 @@ export default function Dashboard() {
       </div>
       <div className="space-y-4">
         <h2 className="text-lg font-bold">My Waptchas</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           {waptchas.map((waptcha, i) => (
-            <div key={i} className="p-4 border border-neutral-400 rounded grid grid-cols-[max-content_1fr] gap-2 shadow">
+            <div key={i} className="p-4 border border-neutral-400 rounded grid grid-cols-[max-content_1fr] gap-2">
               <p className="font-bold">Waptcha ID:</p>
-              <p>{waptcha.waptcha_id}</p>
+              <p className="truncate">{waptcha.waptcha_id}</p>
               <p className="font-bold">Redirect to:</p>
               <a
                 href={waptcha.redirect_to}
-                className="text-[#254EFB] font-bold"
+                className="text-[#254EFB] font-bold truncate"
               >
                 {waptcha.redirect_to} →
               </a>
