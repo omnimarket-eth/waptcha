@@ -39,8 +39,8 @@ export async function POST(request, context) {
   }
 
   const body = await request.json()
-  const appId = process.env.WORLDCOIN_APP_ID
-  const action = process.env.WORLDCOIN_ACTION
+  const appId = process.env.NEXT_PUBLIC_WORLDCOIN_APP_ID
+  const action = process.env.NEXT_PUBLIC_WORLDCOIN_ACTION
   const res = await verifyCloudProof(body, appId, action, '')
 
   let error
