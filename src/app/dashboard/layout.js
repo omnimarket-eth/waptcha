@@ -44,7 +44,7 @@ export default function DashboardLayout({ children }) {
         <QueryClientProvider client={queryClient}>
           <DynamicWagmiConnector>
             <div className="px-2">
-              <header className="border-b">
+              <header className="border-b border-neutral-300 shadow">
                 <nav className="flex items-center justify-between max-w-7xl mx-auto h-12">
                   <Link href="/" className="font-bold text-[#254EFB] font-display">Waptcha</Link>
                   <DynamicWidget
