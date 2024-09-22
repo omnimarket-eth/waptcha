@@ -1,3 +1,33 @@
+# Waptcha
+
+## Intro to Waptcha 💯
+
+🪐 Welcome to Waptcha, a cutting-edge anti-bot solution that uses World ID for human verification, providing robust security with a simple 3-line JavaScript SDK integration.
+
+## Project Description 🌟
+
+### 🗂️ Problem Statement
+As bots become increasingly sophisticated, traditional CAPTCHA systems are failing to provide effective security. Many bots can now mimic human behavior, allowing them to bypass these verification methods. This poses significant risks for websites and applications that handle sensitive data, leading to issues such as fraud, spam, and compromised user experiences.
+
+### ⚙️ Solution 
+
+- Utilizes Worldcoin's biometric technology to ensure that each user is uniquely identified through privacy-preserving biometric data, effectively preventing bot manipulation.
+
+- Offers a streamlined integration process with a lightweight JavaScript SDK, allowing developers to implement Waptcha in just three lines of code, thus minimizing development overhead.
+  
+- Provides robust protection against advanced bots, making it ideal for applications that handle sensitive information.
+
+
+### Github Repo
+https://github.com/omnimarket-eth/waptcha
+
+### 💻 Get Started
+https://waptcha.vercel.app/
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
